@@ -1,0 +1,12 @@
+{
+    "description": "Custom Role Assigned to a Projects Deployment Identity to enable Application registrations.",
+    "displayName": "Application Deployment",
+    "isEnabled": true,
+    "rolePermissions": [
+        {
+            "allowedResourceActions": [
+                "microsoft.directory/applications.myOrganization/createAsOwner"
+            ]
+        }
+    ]
+ }
