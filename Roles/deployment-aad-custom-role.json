@@ -5,7 +5,8 @@
     "rolePermissions": [
         {
             "allowedResourceActions": [
-                "microsoft.directory/applications.myOrganization/createAsOwner"
+                "microsoft.directory/applications/createAsOwner",
+                "microsoft.directory/servicePrincipals/createAsOwner"
             ]
         }
     ]
