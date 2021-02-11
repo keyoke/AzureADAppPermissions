@@ -6,6 +6,8 @@
         {
             "allowedResourceActions": [
                 "microsoft.directory/applications/createAsOwner",
+                "microsoft.directory/appRoleAssignments/createAsOwner",
+                "microsoft.directory/oAuth2PermissionGrants/createAsOwner",
                 "microsoft.directory/servicePrincipals/createAsOwner"
             ]
         }
