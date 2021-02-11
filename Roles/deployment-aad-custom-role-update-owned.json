@@ -7,7 +7,7 @@
             "allowedResourceActions": [
                 "microsoft.directory/applications/standard/read",
                 "microsoft.directory/applications/permissions/update",
-                "microsoft.directory/servicePrincipals/managePermissionsGrantsForSelf.deployment-identity-graph-low"
+                "microsoft.directory/servicePrincipals/managePermissionsGrantsForAll.deployment-identity-graph-low"
             ],
             "condition":  "$SubjectIsOwner"
         }

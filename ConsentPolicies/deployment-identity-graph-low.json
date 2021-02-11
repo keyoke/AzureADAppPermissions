@@ -4,7 +4,20 @@
   "description": "All low risk Microsoft Graph permissions are consentable by Deployment Identities.",
   "includes": [
     {
-      "permissionType": "all",
+      "permissionType": "application",
+      "permissionClassification": "low",
+      "permissions": {
+        "resourceApplication": "00000003-0000-0000-c000-000000000000",
+        "includeAllPermissions": true,
+        "includeSpecificPermissions": []
+      },
+      "clientApplications": {
+        "includeAllClientApplications": true,
+        "includeSpecificClientApplications": []
+      }
+    },
+    {
+      "permissionType": "delegated",
       "permissionClassification": "low",
       "permissions": {
         "resourceApplication": "00000003-0000-0000-c000-000000000000",
