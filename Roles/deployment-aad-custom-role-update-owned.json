@@ -1,0 +1,15 @@
+{
+    "description": "Custom Role Assigned to a Projects Deployment Identity to allow managing Application registration API Permissions.",
+    "displayName": "Application Owner Manage API Permissions",
+    "isEnabled": true,
+    "rolePermissions": [
+        {
+            "allowedResourceActions": [
+                "microsoft.directory/applications/standard/read",
+                "microsoft.directory/applications/permissions/update",
+                "microsoft.directory/servicePrincipals/managePermissionsGrantsForAll.DeploymentIdentityConsentPolicy"
+            ],
+            "condition":  "$SubjectIsOwner"
+        }
+    ]
+ }
