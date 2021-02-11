@@ -6,28 +6,22 @@
     {
       "permissionType": "application",
       "permissionClassification": "low",
-      "permissions": {
-        "resourceApplication": "00000003-0000-0000-c000-000000000000",
-        "includeAllPermissions": true,
-        "includeSpecificPermissions": []
-      },
-      "clientApplications": {
-        "includeAllClientApplications": true,
-        "includeSpecificClientApplications": []
-      }
+      "resourceApplication": "00000003-0000-0000-c000-000000000000",
+      "permissions": ["all"],
+      "clientApplicationIds": ["all"],
+      "clientApplicationTenantIds": ["all"],
+      "clientApplicationPublisherIds": ["all"],
+      "clientApplicationsFromVerifiedPublisherOnly": false
     },
     {
       "permissionType": "delegated",
       "permissionClassification": "low",
-      "permissions": {
-        "resourceApplication": "00000003-0000-0000-c000-000000000000",
-        "includeAllPermissions": true,
-        "includeSpecificPermissions": []
-      },
-      "clientApplications": {
-        "includeAllClientApplications": true,
-        "includeSpecificClientApplications": []
-      }
+      "resourceApplication": "00000003-0000-0000-c000-000000000000",
+      "permissions": ["all"],
+      "clientApplicationIds": ["all"],
+      "clientApplicationTenantIds": ["all"],
+      "clientApplicationPublisherIds": ["all"],
+      "clientApplicationsFromVerifiedPublisherOnly": false
     }
   ],
   "excludes": []
