@@ -6,10 +6,13 @@
         {
             "allowedResourceActions": [
                 "microsoft.directory/applications/createAsOwner",
-                "microsoft.directory/appRoleAssignments/createAsOwner",
-                "microsoft.directory/oAuth2PermissionGrants/createAsOwner",
-                "microsoft.directory/servicePrincipals/createAsOwner"
-            ]
+                "microsoft.directory/servicePrincipals/createAsOwner",
+                "microsoft.directory/applications/standard/read",
+                "microsoft.directory/applications/permissions/update",
+                "microsoft.directory/servicePrincipals/standard/read",
+                "microsoft.directory/servicePrincipals/managePermissionsGrantsForSelf.deployment-identity-graph-low"
+            ],
+            "condition":  "$SubjectIsOwner"
         }
     ]
  }
